@@ -1,0 +1,19 @@
+# .github/workflows/deploy.yml
+# Vercel에 자동 배포 (선택 사항, Vercel GitHub 연동으로 자동화 가능)
+
+name: Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Deploy to Vercel
+        run: echo "Vercel GitHub App으로 자동 배포됩니다."
+

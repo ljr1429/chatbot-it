@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "keywords": ["KCI", "인용", "통계", "유사도", "원문", "학술지", "연구동향"],
+  
+  "links": {
+    "KCI 메인": "https://www.kci.go.kr/kciportal/main.kci",
+    "사이트맵": "https://www.kci.go.kr/kciportal/siteMap.kci",
+    "논문 검색": "https://www.kci.go.kr/kciportal/po/search/poArtiSear.kci",
+    "원문 공개 논문 검색": "https://www.kci.go.kr/kciportal/po/search/poArtiTextSear.kci",
+    "학술지 검색": "https://www.kci.go.kr/kciportal/po/search/poSereSear.kci",
+    "학술지 인용 정보": "https://www.kci.go.kr/kciportal/po/search/poCitaSear.kci",
+    "논문 인용 정보": "https://www.kci.go.kr/kciportal/po/search/poCitaSearList.kci",
+    "학술지 인용 통계": "https://www.kci.go.kr/kciportal/po/statistics/poStatisticsMain.kci?tab_code=Tab2",
+    "소속기관별 인용 통계": "https://www.kci.go.kr/kciportal/po/statistics/poStatisticsMain.kci?tab_code=Tab6",
+    "논문유사도검사": "https://check.kci.go.kr/",
+    "연구분야별 연구 동향": "https://www.kci.go.kr/kciportal/po/search/poFielResearchTrendList.kci",
+    "학술지별 연구 동향": "https://www.kci.go.kr/kciportal/po/search/poSereResearchTrendList.kci"
+  },
+  
+  "autoMatch": [
+    {
+      "keywords": ["원문", "논문 검색"],
+      "links": ["원문 공개 논문 검색", "논문 검색"]
+    },
+    {
+      "keywords": ["학술지"],
+      "links": ["학술지 검색"]
+    },
+    {
+      "keywords": ["인용"],
+      "links": ["학술지 인용 정보", "소속기관별 인용 통계"]
+    },
+    {
+      "keywords": ["통계"],
+      "links": ["학술지 인용 통계"]
+    },
+    {
+      "keywords": ["유사도"],
+      "links": ["논문유사도검사"]
+    },
+    {
+      "keywords": ["동향", "연구"],
+      "links": ["연구분야별 연구 동향", "학술지별 연구 동향"]
+    }
+  ]
+}
+

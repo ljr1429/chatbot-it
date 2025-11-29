@@ -1,0 +1,16 @@
+{
+  "enabled": false,
+  "keywords": [],
+  
+  "links": {
+    "예시 링크": "https://example.com"
+  },
+  
+  "autoMatch": [
+    {
+      "keywords": ["키워드1", "키워드2"],
+      "links": ["예시 링크"]
+    }
+  ]
+}
+

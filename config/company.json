@@ -1,0 +1,44 @@
+{
+  "name": "한국IT정책경영학회",
+  "shortName": "KITPM",
+  "description": "IT 정책 및 경영 관련 학술 논문 투고 안내",
+  
+  "contact": {
+    "email": "kitpm@kitpm.kr",
+    "phone": "010-9944-8282",
+    "website": "https://www.kitpm.or.kr"
+  },
+  
+  "branding": {
+    "primaryColor": "#3B82F6",
+    "logoUrl": "/logo.png",
+    "faviconUrl": "/favicon.ico"
+  },
+  
+  "chatbot": {
+    "title": "KITPM 학회 투고 안내",
+    "welcomeMessage": "안녕하세요! KITPM 학회 투고 안내 챗봇입니다. 무엇을 도와드릴까요?",
+    "placeholderText": "논문 투고에 대해 궁금한 점을 물어보세요...",
+    "sampleQuestions": [
+      "발간 일정은 언제인가요?",
+      "급행 심사 비용은 얼마인가요?",
+      "회원 가입은 어떻게 하나요?",
+      "KCI에서 논문 검색하는 방법"
+    ]
+  },
+  
+  "features": {
+    "enableExternalLinks": true,
+    "enableQueryLogs": true,
+    "enableFAQ": true,
+    "enableRAG": true
+  },
+  
+  "faqKeywords": {
+    "fees": ["비용", "심사비", "심사료", "게재료", "게재비", "초과페이지", "금액", "요금"],
+    "schedule": ["발간", "일정", "스케줄", "언제"],
+    "membership": ["회원", "정회원", "가입", "회비", "입회"],
+    "submission": ["제출", "양식", "메일", "이메일", "제목", "투고"]
+  }
+}
+

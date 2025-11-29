@@ -1,0 +1,43 @@
+{
+  "name": "회사명",
+  "shortName": "약어",
+  "description": "챗봇 설명",
+  
+  "contact": {
+    "email": "contact@example.com",
+    "phone": "02-1234-5678",
+    "website": "https://www.example.com"
+  },
+  
+  "branding": {
+    "primaryColor": "#3B82F6",
+    "logoUrl": "/logo.png",
+    "faviconUrl": "/favicon.ico"
+  },
+  
+  "chatbot": {
+    "title": "챗봇 제목",
+    "welcomeMessage": "환영 메시지를 입력하세요.",
+    "placeholderText": "질문을 입력하세요...",
+    "sampleQuestions": [
+      "샘플 질문 1",
+      "샘플 질문 2",
+      "샘플 질문 3"
+    ]
+  },
+  
+  "features": {
+    "enableExternalLinks": true,
+    "enableQueryLogs": true,
+    "enableFAQ": false,
+    "enableRAG": true
+  },
+  
+  "faqKeywords": {
+    "fees": ["비용", "가격", "금액", "요금"],
+    "schedule": ["일정", "스케줄", "언제"],
+    "membership": ["회원", "가입", "등록"],
+    "submission": ["제출", "신청", "접수"]
+  }
+}
+
