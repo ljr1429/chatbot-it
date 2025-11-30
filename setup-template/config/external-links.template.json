@@ -1,0 +1,57 @@
+{
+  "links": [
+    {
+      "id": "main-website",
+      "name": "공식 홈페이지",
+      "url": "https://company.com",
+      "keywords": [
+        "홈페이지",
+        "사이트",
+        "웹사이트",
+        "공식",
+        "메인"
+      ],
+      "description": "공식 홈페이지로 이동합니다."
+    },
+    {
+      "id": "contact",
+      "name": "문의하기",
+      "url": "https://company.com/contact",
+      "keywords": [
+        "문의",
+        "연락",
+        "전화",
+        "이메일",
+        "상담"
+      ],
+      "description": "문의 페이지로 이동합니다."
+    },
+    {
+      "id": "faq",
+      "name": "자주 묻는 질문",
+      "url": "https://company.com/faq",
+      "keywords": [
+        "FAQ",
+        "자주",
+        "질문",
+        "답변"
+      ],
+      "description": "자주 묻는 질문 페이지입니다."
+    },
+    {
+      "id": "download",
+      "name": "자료 다운로드",
+      "url": "https://company.com/download",
+      "keywords": [
+        "다운로드",
+        "자료",
+        "파일",
+        "양식",
+        "서식"
+      ],
+      "description": "필요한 자료를 다운로드할 수 있습니다."
+    }
+  ],
+  "_comment": "위 예시를 참고하여 회사에 맞게 수정하세요. 불필요한 항목은 삭제하고, 필요한 항목을 추가하세요."
+}
+

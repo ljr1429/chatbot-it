@@ -1,0 +1,57 @@
+{
+  "name": "회사명을 입력하세요",
+  "nameEn": "Company Name",
+  "description": "챗봇 설명을 입력하세요 (예: XX 안내 챗봇)",
+  "logo": "/logo.png",
+  "primaryColor": "#0066CC",
+  "secondaryColor": "#003366",
+  "contact": {
+    "email": "info@company.com",
+    "phone": "02-1234-5678",
+    "website": "https://company.com"
+  },
+  "chatbot": {
+    "welcomeMessage": "안녕하세요! [회사명] 안내 챗봇입니다. 무엇을 도와드릴까요?",
+    "placeholder": "궁금한 내용을 입력하세요...",
+    "errorMessage": "죄송합니다. 일시적인 오류가 발생했습니다. 잠시 후 다시 시도해주세요."
+  },
+  "features": {
+    "enableFaq": true,
+    "enableRag": true,
+    "enableLearning": true
+  },
+  "faqKeywords": {
+    "schedule": [
+      "일정",
+      "날짜",
+      "기간",
+      "마감",
+      "언제",
+      "시간",
+      "스케줄"
+    ],
+    "fees": [
+      "비용",
+      "가격",
+      "요금",
+      "금액",
+      "수수료",
+      "얼마"
+    ],
+    "membership": [
+      "회원",
+      "가입",
+      "등록",
+      "멤버",
+      "신규"
+    ],
+    "submission": [
+      "제출",
+      "신청",
+      "접수",
+      "투고",
+      "지원"
+    ]
+  }
+}
+
